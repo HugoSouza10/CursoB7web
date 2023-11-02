@@ -1,0 +1,3 @@
+npm init
+
+para rodar o projeto: node index.js

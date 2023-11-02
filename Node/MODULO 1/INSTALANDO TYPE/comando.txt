@@ -1,0 +1,4 @@
+tsc --init
+
+Depois só gerar o arquivo para transformar
+o código em ts para js

@@ -1,0 +1,12 @@
+{{^frases}}: O else serve para lista e também para
+condicionais
+
+Conteúdo parcial:
+basicamente é criar um template na qual vai ser
+usado em outro lugares a mesma coisa. 
+
+obs: Geralmente criamos uma pasta partials para 
+lidar com isso.
+
+obs2: Para puxar o partials desejado precisamos fazer
+isso: {{>partials/header}}
