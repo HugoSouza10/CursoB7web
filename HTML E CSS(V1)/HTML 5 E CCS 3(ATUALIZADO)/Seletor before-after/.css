@@ -1,0 +1,34 @@
+@charset="UTF-8";
+
+body{
+	text-align: center;
+}
+
+
+/*Before coloca um falso elemento antes da div*/
+span::before{
+	 /*content: url('https://image.flaticon.com/icons/png/512/25/25694.png')*/
+
+	 content: '<-';
+	 background-color: orange;
+
+}
+
+/*Inseri depois*/
+span::after{
+	 /*content: url('https://image.flaticon.com/icons/png/512/25/25694.png')*/
+
+	 content: '->';
+	 background-color: orange;
+
+}
+
+span::after{
+	content:'';
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: red;
+}
+	
+

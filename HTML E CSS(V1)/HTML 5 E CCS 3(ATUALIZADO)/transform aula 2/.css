@@ -1,0 +1,41 @@
+@charset="UTF-8";
+
+
+/*div{
+	background-color: #ff0000;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	transition: 0.5s all;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	position: relative;
+  	animation-name: animacao;
+  	animation-duration: 1s;
+
+	
+}
+*/
+
+div{
+	background-color: blue;
+	width: 200px;
+	height:200px;
+	margin: auto;
+	transition: 0.5s all;
+	/*ESSE SKEW, SERVE PARA DISTORCER O OBJETO*/
+	transform: skewX(20deg);
+}
+
+
+/*
+
+
+@keyframes animacao{
+	0%{transform: rotate(30deg);}
+	100%{transform: rotate(0deg);}
+
+}
+
+*/

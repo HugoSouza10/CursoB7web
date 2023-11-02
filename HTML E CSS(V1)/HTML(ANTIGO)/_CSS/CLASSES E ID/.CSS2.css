@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.teste{
+    width: 200px;
+}
+
+#titulo{
+    color:red;
+    font-family: arial;
+}

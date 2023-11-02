@@ -1,3 +1,0 @@
-nodemon dist/index.js 
-
-lembrando tem que rodar com o watch

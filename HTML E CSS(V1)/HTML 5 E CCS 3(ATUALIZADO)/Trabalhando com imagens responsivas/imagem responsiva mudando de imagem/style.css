@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    width:100%;
+}
+
+
+.container img{
+    max-width: 100%;
+}
+
+
+/*
+.carro_sm{
+    display: none;
+}
+
+.carro_bg{
+    display: block;
+}
+
+*/
+
+/*
+@media(max-width:498px){
+    .carro_bg{
+        display: none;
+    }
+
+    .carro_sm{
+        display: block;
+    }
+}
+
+*/

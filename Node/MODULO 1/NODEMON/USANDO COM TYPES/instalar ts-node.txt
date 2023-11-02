@@ -1,3 +1,0 @@
-yarn global add ts-node
-
-npm install -g ts-node

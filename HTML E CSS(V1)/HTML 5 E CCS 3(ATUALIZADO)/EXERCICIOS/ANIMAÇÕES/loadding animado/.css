@@ -1,0 +1,33 @@
+@charset="UTF-8";
+
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div::before{
+	content: '';
+	background-color: orange;
+	width: 0px;
+	height:50px;
+	position: absolute;
+	border-radius: 20px;
+	transition: 0.5s all;
+
+}
+
+div{
+	width: 50%;
+	height: 50px;
+	border-radius: 20px;
+	background-color: yellowgreen;
+}
+
+div:hover:before{
+	width: 50%;
+}
+

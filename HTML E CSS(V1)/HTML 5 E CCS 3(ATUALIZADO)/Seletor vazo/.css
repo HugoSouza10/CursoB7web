@@ -1,0 +1,30 @@
+@charset="UTF-8";
+
+
+input, a{
+	display: block;
+}
+
+/*Filtrando por nomes específicos dentro do link*/
+
+
+a[href*="economia"]{
+	background-color: yellowgreen;
+}
+
+a[href*="esporte"]{
+	background-color: red;
+}
+
+/*FORMATANDO LINK ESPECÍFICOS*/
+a[href^="https:"] {
+	background-color: orange;
+}
+a[href^="http:"]{
+	background-color: blue;
+}
+
+/*SELECIONANDO ELEMENTO VAZIO*/
+div:empty{
+	background-color: blue;
+}

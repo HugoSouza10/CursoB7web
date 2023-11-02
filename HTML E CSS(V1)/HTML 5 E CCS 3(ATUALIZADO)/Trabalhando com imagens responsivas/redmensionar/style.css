@@ -1,0 +1,15 @@
+body{
+    background-color:black;
+    margin: 0;
+}
+
+
+.container{
+    width:100%;
+    background-color: brown;
+}
+
+
+.container img{
+    width: 100%;
+}

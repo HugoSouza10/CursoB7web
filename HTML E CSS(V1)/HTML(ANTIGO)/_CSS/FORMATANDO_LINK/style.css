@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0px;
+
+}
+
+a{
+    font-size: 40px;
+    font-family: arial;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover{
+    background-color: cadetblue;
+    color: white;
+    text-decoration: underline;
+}

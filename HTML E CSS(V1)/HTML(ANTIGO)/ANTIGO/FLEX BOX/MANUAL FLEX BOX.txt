@@ -1,0 +1,37 @@
+-display:flex
+aqui ativa o flexbox
+
+-Flex-Direction: Aqui � a dire��o do flexbox:
+
+*Row padr�o linha esquerda.
+
+*row-reverse: linha reversa ou seja direita.
+
+*Column: Aqui � dire��o em coluna
+
+
+*Comumn-Reverse:Dire��o reversa.
+
+
+*flex-wrap:wrap; Desabilita o padr�o do flexBox, deixando a div ir para baixo caso n�o tenha espa�o.
+
+*Flex-Wrap:Nowrap; � o padr�o.
+
+*Flex-Flow: Row Wrap: Aqui define os dois a dire��o e o wrap.
+
+
+-ALINHAMENTO:
+
+*justify-content:Center; Aqui alinha todos os elementos que est�o na linha, nesse caso t� center. OBS:deve se usar na div principal.
+
+
+*align-items:center; Aqui centraliza o objeto na coluna, neste caso est� center.
+
+
+*Flex:start: Alinha no come�o da esquerda para a direita.
+
+
+*Flex:end; Alinha onde o flex acaba, no caso na direita.
+
+*align-self:flex-end; Aqui serve basicamente para alinhar um intem especifico.
+

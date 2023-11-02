@@ -1,0 +1,11 @@
+@charset="UTF-8";
+
+
+
+.exemplo {
+	margin:0;
+	width: 600px;
+	height:200px;
+	margin:auto;
+    background:-linear-gradient(white,orange);
+}

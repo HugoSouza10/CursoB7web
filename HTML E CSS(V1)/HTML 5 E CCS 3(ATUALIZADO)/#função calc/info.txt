@@ -1,0 +1,4 @@
+Com a função cal, podemos desconto larguras e alturas
+
+
+com essa função podemos descontar diversos valores de margem

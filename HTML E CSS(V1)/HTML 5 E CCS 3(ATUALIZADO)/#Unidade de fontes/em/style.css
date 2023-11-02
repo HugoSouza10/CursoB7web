@@ -1,0 +1,38 @@
+
+
+h1{
+    font-size: 5em;
+}
+
+.box{
+    font-size: 4em; /*40px por que é baseado no pai, ou seja body*/
+}
+
+
+.box-interno{
+    width: 10em; /*400px, pois se baseia no elemento pai superior no caso o box*/
+    height: 10em;
+    background-color: #999;
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 62.5%;
+    }
+}
+
+
+
+
+
+/*
+
+em: Sempre pegar o valor do elemento pai dele. por exemplo o pai do box-interno é box
+então 1em equivale a 20px e assim vai aumentando
+
+
+ex: body: elemento pai, então quando aplicamos fonte-size de 1em no box, então ele calcula baseado no body
+
+
+em: Pega a partir do elemento superior a ele, ou seja o elemento pai
+*/

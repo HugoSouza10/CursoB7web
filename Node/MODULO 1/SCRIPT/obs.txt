@@ -1,5 +1,0 @@
-nesse script, a gente pode simplesmente criar vários
-script para facilitar nosso desenvolvimento
-
-basicamente é como se fosse um terminal que executa
-comando

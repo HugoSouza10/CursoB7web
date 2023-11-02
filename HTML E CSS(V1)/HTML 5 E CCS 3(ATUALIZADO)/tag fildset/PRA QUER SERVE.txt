@@ -1,0 +1,23 @@
+SERVE PARA SEPARAR E ORGANIZAR MELHOR MEU FORMULÁRIO
+
+
+EX:
+
+
+<form>
+    //DADO FISÍCO
+   <fidset>
+     <label>
+	<input type='text' name='name'>
+     </label>
+   </fildset>
+
+   //DADO JURIDICO
+    <fildset>
+       <label>
+	<input type='text' name='name'>
+       </label>
+   </fildset>
+    
+
+</form>

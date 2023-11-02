@@ -1,0 +1,16 @@
+@charset="UTF-8";
+
+body{
+	background-image: url("../rgba/fundo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+div{
+	background-color: rgb(0,0,0,0.5);
+	width: 300px;
+	height: 300px;
+}
+
+/*RGBA SERVE PARA ADICIONAR COR COM TRANSPARENCIA*/

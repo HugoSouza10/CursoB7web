@@ -1,0 +1,30 @@
+.container{
+	display: grid;
+	grid-template-columns:auto auto auto 100px;
+	grid-template-rows: 200px 100px;
+	grid-gap: 10px 30px;
+}
+
+/*
+grid-template-colums: defini colunas;
+grid-template-row: defini linhas;
+
+Aqui tem a propriedade de repetição, reptindo o numero de colunas
+grid-template-columns:repeat(3, 1fr);
+
+grid-template-columns:100px 100px 100px; 3 colunas de 100px
+grid-template-columns:100px 100px 100px 400px; ultima coluna com 400px
+grid-template-columns:auto auto; criando duas colunas altomática
+
+
+grid-template-rows: defini linhas, basicamente funciona da mesma forma
+
+
+*/
+.container .item{
+	background-color: #4169E1;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+}

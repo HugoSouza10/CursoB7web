@@ -1,0 +1,13 @@
+@charset="UTF-8";
+
+/*MODIFICANDO A PRIMEIRA LETRA*/
+p::first-letter {
+	font-size: 20PX;
+	font-weight: bold;
+}
+
+/*MODIFICANDO A PRIMEIRA LINHA*/
+
+p::first-line{
+	background-color: yellowgreen;
+}

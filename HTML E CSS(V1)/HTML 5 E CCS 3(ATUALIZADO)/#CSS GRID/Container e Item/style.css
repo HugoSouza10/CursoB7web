@@ -1,0 +1,19 @@
+.container{
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+}
+
+/*OBS: ALGUMAS PROPRIEDADE É DEFINIDADAS NO CONTAINER
+AS REGRAS GERAIS QUE SE APLICA A TODO MUNDO, COLCA-SE NO CONTAINER
+
+*/
+
+
+/*REGRAS ESPECÍFICA COLOCA-SE AQUI NO ITEM*/
+.container .item{
+	background-color: #4169E1;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+}

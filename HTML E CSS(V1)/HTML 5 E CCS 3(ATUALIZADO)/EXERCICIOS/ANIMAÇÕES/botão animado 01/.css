@@ -1,0 +1,30 @@
+@charset="UTF-8";
+
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input{
+	background-color: yellowgreen;
+	font-size: 24px;
+	padding:10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	animation-name: animacao;
+  	animation-duration: 1s;
+  	transition: 0.5s; 
+  	/*determina o número de vezes que ocorre a animação*/ 
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+	0%{padding: 0px}
+	30%{transform: scaleX(20deg);};
+	50%{transform: scaleY(20deg);};
+}

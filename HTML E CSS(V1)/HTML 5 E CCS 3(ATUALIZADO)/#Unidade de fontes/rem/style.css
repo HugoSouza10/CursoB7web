@@ -1,0 +1,30 @@
+
+
+html{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.box{
+    font-size: 2rem; 
+}
+
+
+.box-interno{
+    width: 20rem; 
+    height: 20rem;
+    background-color: #999;
+}
+
+
+
+
+/*
+
+Rem: Se baseia apenas em um elemento pai central
+
+ex: html é o elemento root, ou seja elemento central, então todo mundo será baseado nele
+*/

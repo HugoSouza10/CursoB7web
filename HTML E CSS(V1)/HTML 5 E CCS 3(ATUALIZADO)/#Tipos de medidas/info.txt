@@ -1,0 +1,4 @@
+px: medida absoluta mais utilizada
+pt: para textos impresos
+
+essas unidades sempre será a mesma coisa. Ela não muda

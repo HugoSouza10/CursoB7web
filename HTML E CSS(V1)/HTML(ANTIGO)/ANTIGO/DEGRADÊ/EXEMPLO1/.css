@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.exemplo{
+	margin:0;
+	width: 600px;
+	height:200px;
+	background-color:red;
+	margin: auto;
+    background:linear-gradient(white,orange); /* AQUI SERVE PARA ADICIONAR O GRADIENTE*/
+    background:-moz-linear-gradient(white,orange);/*AQUI SERVE PARA CONSERTA BUGS DO MOZILA*/
+    background:-o-linear-gradient(white,orange);
+    background:webkit-linear
+}

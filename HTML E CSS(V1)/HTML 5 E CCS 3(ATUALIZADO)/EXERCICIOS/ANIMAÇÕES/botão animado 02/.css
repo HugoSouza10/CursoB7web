@@ -1,0 +1,49 @@
+@charset="UTF-8";
+
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(80deg,yellowgreen, yellow);
+	/*APLICANDO GRDIENTE*/
+}
+
+
+
+input{
+	background-color: #00BFFF;
+	border: none;
+	width: 100px;
+	padding: 20px;
+	color: white;
+	font-size: 14px;
+	transition: 0.5s;
+}
+
+input:hover{
+	width: 200px;
+	border-radius: 200px;
+}
+
+
+#botao2{
+	background-color:#708090;
+	border: none;
+	width: 100px;
+	padding: 20px;
+	color: white;
+	font-size: 14px;
+	transition: 0.5s;
+	animation-name: animacao;
+	animation-duration: 1s;
+  	transition: 0.5s; 
+}
+
+@keyframes animacao{
+	0%{width:300px};
+	50%{width: 100px};
+}

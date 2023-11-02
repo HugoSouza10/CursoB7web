@@ -1,0 +1,24 @@
+@charset="UTF-8";
+
+
+input, a{
+	display: block;
+}
+
+/*input [required] {
+	background-color: red;
+}
+
+uma das formas de selecionar required! Você coloca a div ou tag e depois específica o atributo
+*/
+
+/*SELECIONANDO ATRIBUTOS ESPECÍFICOS*/
+input[type = text]{
+	background-color:orange;
+}
+
+/*Selecionando pelo o nome*/
+
+input[name = "Senha"]{
+	background-color: yellowgreen;
+}

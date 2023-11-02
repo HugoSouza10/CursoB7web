@@ -1,0 +1,48 @@
+
+
+
+                                        OQUE É SECTION
+
+
+ A TAG SECTION É UMA SESAÇÃO DE CONTEÚDOS SERVE BASICAMENTE PARA SEPARAR CONTEÚDOS DIFERENTES, PARA OS MOTORES DE BUSCAS
+ NÃO MISTURAREM AS INFORMAÇÕES.
+
+
+ OBS: SECTION É UMA TAG DE SEO QUE SERVE PARA DIVIDIR OS CONTEÚDOS DE FORMA LÓGICA OBEDENCENDO UM RACIONIO DOQUE SE TRATA
+ CADA CONTEÚDO CONSTRUINDO UMA RELAÇÃO INTIMA COM TODO O SITE.
+
+ OBS 2: Digamos que na sua página inicial você tenha três chamadas principais:
+        Clientes, Serviços e Notícias. Aí um ótimo lugar para você usar a tag section. Cada uma
+         dessas chamadas podem ser um elemento de seção. A tag pode ser usada em conjunto com o H1,
+          H2, H3, H4, H5 e H6, elementos para indicar a estrutura do documento. Ele pode conter um header
+          e um footer se necessário.
+
+
+
+
+                                              ARTICLE
+
+
+  A TAG ARTICLE: É O CONTEÚDO PRINCIPAL DO SITE OU SEJA É UM AGRUPAMENTO DE CONTEÚDO, SERVE PARA AUXILIAR OS MOTORES
+  BUSCA A ACHARAM INFORMAÇÕES DA SUA PÁGINA REFERENTE A SEU CONTEÚDO PRINCIPAL, TEM COMO FUNÇÃO TAMBÉM AUXILIAR OS
+  MOTORES DE BUSCA NO ENCONTRO DE PALAVRAS CHAVES.
+
+
+
+
+                                                ASIDE
+
+    A TAG ASIDE É O CONTEÚDO SECUNDARIO DO SITE OU SEJA É UM CONTEÚDO QUE SERVE PARA AUXILIAR O ARTICLE GERALMENTE
+    É UM CONTEÚDO LATERAL.
+
+
+
+                                                TIME
+
+   A TAG TIME SERVE BASICAMENTE PARA AJUDAR OS MOTORES DE BUSCA A ENCONTRARAM INFORMAÇÕES RELACIONADOS A TEMPO OU A DATAS
+
+   EX: O DIA QUE MAIS GOSTO É <TIME DATETIME="1600-01-01">O DIA DO MEU ANIVERÁRIO</TIME>
+
+
+
+

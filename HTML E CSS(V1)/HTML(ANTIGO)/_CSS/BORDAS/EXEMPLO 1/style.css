@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+}
+.borda{
+    background-color: darkgray;
+    color: white;
+    width:400px;
+    height:400px;
+   border-radius: 200px;
+}
+
+<!-- BORDA-RADIUS SERVE BÁSICAMENTE PARA ARRENDONA AS BORDA-->
+<!-- BORDER SERVE PARA ADICIONAR UMA BORDA-->
+
+
+     Tipo de bordas
+     Solid: é uma borda comum solida
+     Dashed: é uma borda pontilhada
+     Double: É uma borda meio pontilhado também

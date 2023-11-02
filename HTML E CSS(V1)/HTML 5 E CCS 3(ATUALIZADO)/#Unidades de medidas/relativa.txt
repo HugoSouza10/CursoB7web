@@ -1,0 +1,7 @@
+%: Essa unidade é muito importante para criar estruturas como container por exemplo
+vw: largura em porcento horizontal
+vh: Largura em porcento vertical
+
+porcentagem: se relaciona ao espaço disponível do elemento
+
+vh e vw: se relaciona ao tamanho real da tela

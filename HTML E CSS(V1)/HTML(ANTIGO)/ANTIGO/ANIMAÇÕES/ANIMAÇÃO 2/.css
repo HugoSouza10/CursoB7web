@@ -1,0 +1,28 @@
+@charset="UTF-8";
+
+body{
+	margin:0;
+}
+
+@keyframes exemplo{
+	0%{background-color: red; top:0; left:0;}
+	25%{background-color: green; top:0; left:200;}
+	50%{background-color:blue;top:200; left:200;}
+	75%{background: black; top:200; left:0;}
+	100%{background-color:red; top:0; left:0;}
+}
+
+.exemplo{
+	width: 150px;
+	height: 150px;
+	background-color:red;
+	animation-name:exemplo;
+	animation-duration: 4s;
+	position: absolute;/*SEMPRE PRECISA INFORMAR A POSIÇÃO SE NÃO NÃO FUNCIONA A ANAIMAÇÃO*/
+	animation-delay: 2s;/*AQUI SERVE PARA INICAR ANIMAÇÃO EM 2 SEGUNDOS*/
+	animation-iteration-count:2;/* AQUI SERVE PARA REPETIR A ANIMAÇÃO*/
+}
+
+
+/* INFINITE SIGNIFICA ANAIMAÇÃO INFINITA*/
+

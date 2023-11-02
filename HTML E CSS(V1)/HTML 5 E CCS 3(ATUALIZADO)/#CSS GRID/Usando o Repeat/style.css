@@ -1,0 +1,25 @@
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	gap:10px;
+}
+
+/*
+repeat já diz tudo! você pode repetir quantas colunas você quiser
+
+
+grid-template-columns: 100px repeat(3,50px); 1 coluna de 100 e 3 de 50px
+
+	grid-template-columns: 100px 500px repeat(3, 1fr);
+
+
+	grid-template-columns: repeat(auto-fill, 300px); aqui ele vai repetir as colunas de 300px
+	até não caber mais na tela
+*/
+.container .item{
+	background-color: #4169E1;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+}

@@ -1,0 +1,23 @@
+@charset="UTF-8";
+
+.balao{
+	background-color: blue;
+	display: inline-block;
+	color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+/*Obs: coisa acima a direita usa-se after, mas coisas acima a esquerda usa-se before*/
+
+.balao::after{
+	content: '';
+	height: 20px;
+	display: block;
+	position: absolute;
+	margin-top: 20px;
+	border:20px solid;
+	border-color: blue transparent transparent transparent;
+	/*Deixa ele com uma posição fixa, não faz mais parte do conteúdo*/
+}
+

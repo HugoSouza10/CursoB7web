@@ -1,0 +1,8 @@
+1- crie um quadradinho
+2- crie o icone dentro do quadradinho
+
+3- crie um input checkbox para poder fazer o efeito do clique
+4- Agora no css você precisa fazer o evento de clique e movimentar o icone
+
+
+obs: você pode criar o icone com before e after 

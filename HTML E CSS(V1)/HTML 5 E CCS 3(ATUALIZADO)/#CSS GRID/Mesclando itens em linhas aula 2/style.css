@@ -1,0 +1,39 @@
+.container{
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
+	/*GRID TEMPLATE SERVE PARA DEFINIR AS LINHAS*/
+	gap:10px;
+	background-color: #ccc;
+}
+
+
+ .item{
+	background-color: #4169E1;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+}
+
+.item7{
+	background-color: brown;
+	color: white;
+
+	grid-column-start: 3;
+	grid-column-end: 4;
+
+	grid-row-start: 1;
+	grid-row-end: 6;
+
+}
+
+.item5{
+	background-color: darkgreen;
+	color: white;
+
+	grid-column-start: 1;
+	grid-column-end:3;
+
+	grid-row-start: 4;
+	/*Aqui defini a posição da colunas no item específico*/
+}

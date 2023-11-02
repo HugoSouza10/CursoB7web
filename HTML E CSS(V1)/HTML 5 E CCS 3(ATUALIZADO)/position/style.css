@@ -1,0 +1,22 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+aside{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+#parente1{
+    background-color: darkblue;
+    color: white;
+}
+
+
+#parente2{
+    background-color: teal;
+}
+

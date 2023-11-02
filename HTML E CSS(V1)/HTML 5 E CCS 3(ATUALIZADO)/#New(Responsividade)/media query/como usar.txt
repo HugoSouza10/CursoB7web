@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+	display:none;
+}
+
+
+Podemos usar o máximo e o mínimo ao mesmo tempo
+@media (max-width:450px) and (min-width:320){
+
+	display:none;
+
+}

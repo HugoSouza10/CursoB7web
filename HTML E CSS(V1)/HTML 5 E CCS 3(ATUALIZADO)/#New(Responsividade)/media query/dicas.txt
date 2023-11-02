@@ -1,0 +1,24 @@
+Para exibir ou não coisas ao imprimir
+
+use @media only print {
+	suas propriedades aqui
+}
+
+
+orientação de tela
+
+Tela deitada
+@media(orientation: landscape){
+	body{
+	   flex-direction:row;
+	}
+
+}
+
+tela em pé
+@media (orientation:portrait){
+
+	body{
+	   flex-direction:column;
+	}
+}

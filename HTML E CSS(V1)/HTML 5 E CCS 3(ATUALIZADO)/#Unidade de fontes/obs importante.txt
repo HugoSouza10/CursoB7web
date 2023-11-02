@@ -1,0 +1,8 @@
+Padronização
+
+Podemos fazer o site baseado em rem e onde tiver tamanhos de fontes mais específica
+a gente colocar rem.
+
+
+o em a gente defini um elemento pai padrão
+e o rem a gente defini um root padrão para partes específicas

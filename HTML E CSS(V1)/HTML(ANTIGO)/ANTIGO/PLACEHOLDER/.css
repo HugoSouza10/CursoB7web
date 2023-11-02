@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+    background-color: #1c5f98;
+}
+
+form{
+    width: 300px;
+    height: 320px;
+    background-color: #000000;
+    margin:auto;
+    color: white;
+    font-family: Arial, sans-serif;
+     padding-left: 10px;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 250px;
+    height: 70px;
+    margin: auto;
+   margin-top: 90px;
+}
+
+img{
+    margin-top: 20px;
+}
+
+.input{
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    margin-top: 10px;
+    border: solid 1px lightgrey;
+    background-color: inherit;
+    color: white;
+}
+
+
+span{
+margin-bottom: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.entrar{
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #1c5f98;
+    border-radius: 3px;
+
+}

@@ -1,0 +1,60 @@
+﻿
+CSS 3
+
+Height: AQUI VOC� COLOCAR A ALTURA.
+
+outline: 0; AQUI SERVE PARA TIRAR A COR AZUL DO FORMULARIO
+
+Width: AQUI VOC� COLOCA A LARGURA
+
+display: inline-block; /*ISSO AQUI É BOM QUANDO QUEREMOS IXBIR UMA LINHA DE CONTEÚDO*/
+
+
+TYPE: � O TIPO DE ALGUMA COISA
+
+Display: EXISTE NONE, NÃO MOSTRA CONTEÚDO, BLOCK MOSTRA CONTEÚDO, FLEX CONTEÚDO FLEXIVÉL.
+
+
+Span: SERVE PARA FORMATAR ALGUM OBJETO ESPECIFICO.
+
+background-color: ; SERVE PARA ADICIONAR UMA COR DE FUNDO.
+
+Color: Serve para adicionar uma cor ao objeto.
+
+margin-top: ; Serve para controlar a margin de cima.
+
+margin-bottom: ; Serve para controlar a margin de baixo
+
+border-bottom: ; Serve para adicionar a borda de cima
+
+border-top: ; Serve para adicionar a borda de cima.
+
+Font-Famly:; Serve para mudar a fonte
+
+Font-Size:; Serve para almentar ou diminuir o tamanho da letra
+
+Margin: É espaçamento externo;
+
+Margin-Top: margin de cima;
+
+Margin-botton: margin de baixo.
+
+Padding: É espaçamento interno;
+
+text-align: Serve basicamento para alinhar conteúdos internos.
+
+
+Position: Absolute; AQUI POSICIONA UM OBJETO EM LUGAR UNICO.
+
+Position: Fixed; AQUI FIXA UM OBJETO EM UMA POSIÇÃO E FICA FIXA OU SEJA NÃO ALTERA A POSIÇÃO.
+
+ line-height: Serve para colocar um objeto bem no centro
+
+  margin:auto; SERVE BASICAMENTE PARA CENTRALIZAR A PAGINA NO CENTRO
+
+  houve:QUANDO O MOUSE PASSAR POR CIMA FAZER ALGUMA COISA
+
+
+ cursor: pointer; Serve para colocar a mãozinho nos objeto.
+
+ background-size: cover; PARA COLOCAR UM LIMITE ATÉ ONDE A IMAGEM PODE IR

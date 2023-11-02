@@ -1,0 +1,28 @@
+:root{
+    --bg-color:rgb(255, 0, 0);
+    --color:#fff;
+    --font-size:25px;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--color);
+}
+
+h1{
+  font-size: var(--font-size-big);
+}
+
+
+@media (max-width:600px){
+   :root{
+       font-size: 30px;
+   }
+}
+
+
+/*
+variáveis podemos definir propriedades específicas que são repetidas
+
+*/

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.container{
+			display: flex;
+			background-color:#ddd;
+			flex-wrap:wrap;
+			justify-content:center;
+			align-items:center;
+			height: 500px;
+<!-- ESSE É O CONTAINER PRINCIPLA ONDE DEVE APLICAR O display: flex;-->
+<!-- QUANDO APLICA FLEX NELE ELE FICA FLEXIVEL-->
+<!-- TODA VEZ QUE USAR UM FELXBOX AGENTE USA SEMPRE UMA DIV PRINCIPAL, E PARA ALINHAR A DIV SEGUNDÁRIA COMO ESSE .CONTAINER DIV PRECISA-SE APLICA ALGUMAS COISAS NA DIV PRINCIPLA QUE NESSE CASO É O .CONTAINER-->
+
+<!-- justify-content: VAI ALINHA  NA LINHA PODE SER CENTER, SPACE-AROUND, SPACE-BETWEEN --> 
+<!-- SPACE-AROUND FAZ UMA SEPARAÇÃO DEIXA UM EM CADA PONTA SÓ QUE UM MAIS PRÓXIMO DO OUTRO-->
+			
+		}
+
+		.container div{
+			width:60px;
+			height: 200px;
+			background-color: red;
+			margin:10px;
+			padding:10px;
+			
+		}
+	</style>
+</head>
+<body>
+  <div class="container">
+  	  <div>1</div>
+  	  <div>2</div>
+  	  <div>3</div>
+  	  <div>4</div>
+  	  <div>5</div>
+  	  <div>6</div>
+  	 
+  	
+  </div>
+</body>
+</html>
+
+<!--*flex-wrap:wrap; Desabilita o padrão do flexBox, deixando a div ir para baixo caso não tenha espaço.-->
+
+<!--Flex-Flow: Row Wrap: Aqui define os dois a direção e o wrap.-->
+
+<!-- Nowrap: Volta ao padrão original ou seja row.-->
+
+
+<!---ALINHAMENTO:
+
+*justify-content:Center; Aqui alinha todos os elementos que estão na linha, nesse caso tá center. OBS:deve se usar na div principal.
+
+
+*align-items:center; Aqui centraliza o objeto na coluna, neste caso está center.-->
+
+
+<!--Flex:start: Alinha no começo da esquerda para a direita.
+
+
+*Flex:end; Alinha onde o flex acaba, no caso na direita.
+
+
+<!--SPACE-AROUND: Ele faz o alinhamente, mas com o espaçamento ingual-->
+
+<!--SPACE-BETWEEN: ELE FAZ O ALINHAMENTO COM O MESMO ESPAÇAMENTO, PORÉM COM, UMA DIV NO INICIO E OUTRA
+NO FIM DA TELA-->

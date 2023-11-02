@@ -1,0 +1,25 @@
+@charset="UTF-8";
+
+
+body{
+	margin:0;
+}
+
+@keyframes exemplo{
+0%{background-color:blue; top:0; left:0;}
+25%{background-color:black; top:0; left:200;}
+50%{background-color:yellow; top:200; left:0;}
+75%{background-color:red; top:200; left:0;}
+100%{background-color:blue;}
+}
+
+.exemplo {
+    width:160px;
+    height: 100px;
+    margin: auto;
+    margin-left:0;
+    background-color:blue;
+    position:absolute;
+    animation-name:exemplo;
+    animation-duration:4s;
+}
