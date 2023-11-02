@@ -1,0 +1,2 @@
+Esse sofware, a gente usa para trabalhar com
+o banco de dados.

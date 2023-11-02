@@ -1,0 +1,18 @@
+findAll
+
+
+Tipos de consultas no sequilize:
+
+
+- attributes: {exclude:['id']} Excluir alguns
+itens do resultado
+
+- where: {name: 'Hugo'}: where para filtrar coisas específicas
+
+- where: {
+ age: [55,90]
+}
+
+Isso basicamente é o in do sql
+
+

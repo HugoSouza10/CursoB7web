@@ -1,0 +1,8 @@
+No controller home, use:
+
+ try {
+        await sequelize.authenticate();
+        console.log('Conexão feita com sucesso!');
+    }catch(error){
+        console.log('Problema', error)
+    }

@@ -1,0 +1,3 @@
+basicamente a gente cria uma cópia do banco de dados
+ensina a orm a lidar com com as operações do banco
+de forma fácil

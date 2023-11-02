@@ -1,0 +1,4 @@
+
+npm install dotenv
+
+npm install sequelize sequelize-typescript mysql2 @types/sequelize
