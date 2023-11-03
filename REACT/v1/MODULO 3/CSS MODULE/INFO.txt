@@ -1,0 +1,11 @@
+Com module css você não precisa se preocupar com prefixo, pois
+ele gera automático.
+
+
+para importar o css
+
+import styles from './styles.module.css';
+
+obs: Bastante util para reaproveitar em outros locais
+
+obs2: O css module elemina os prefixos

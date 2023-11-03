@@ -1,0 +1,2 @@
+O ideial é criar um arquivo separado somente 
+para colocar as requisições.

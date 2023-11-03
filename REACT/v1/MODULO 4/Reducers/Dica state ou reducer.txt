@@ -1,0 +1,3 @@
+Quando tiver um item mais simples use state
+
+tipo capturar dados de um form

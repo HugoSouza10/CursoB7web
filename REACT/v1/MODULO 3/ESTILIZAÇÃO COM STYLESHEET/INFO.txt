@@ -1,0 +1,18 @@
+COLOQUE CLASSES ÚNICAS PARA NÃO DÁ PROBLEMA NA ESTILIZAÇÃO
+
+stylesheet é como no css a gente cria um css externo
+
+
+formas de criar css:
+
+1º forma:
+-criei uma pasta com o nome do componente
+-crie um arquivo index.tsx e outro stryle.css
+-importe o css
+
+import './style.css'; 
+
+obs: Tome cuidado com os nomes da classe, pois nomes
+indenticos podem causar conflito!
+
+obs2: No jsx a gente usa classeName

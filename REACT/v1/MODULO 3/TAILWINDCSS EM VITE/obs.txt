@@ -1,0 +1,2 @@
+tailwind é mobile firts, então comece a responsividade
+pelo celular

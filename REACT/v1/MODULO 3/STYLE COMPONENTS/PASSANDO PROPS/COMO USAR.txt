@@ -1,0 +1,34 @@
+- Podemos passar props para o styled components
+
+para usar a props você usa ${} por que no styled-componets
+tem template string por isso a prop funciona assim
+
+ex: ${props => props.bg} tem que rodar uma função
+
+
+obs: para receber uma prop no components steled-componets
+é um pouco diferente
+
+obs2: Quando você envia uma prop sem nada, então ele considera como um boolean
+
+obs3: Toda vez que você criar um componente e usar a props, então
+ela adicionar a estilização específica 
+
+obs4: Você precisa específicar a typagem da prop
+
+
+- para usar o type é assim
+
+
+type BotaoProps = {
+    bg:string;
+    small?: boolean;
+}
+
+export const Botao = styled.button <BotaoProps> `
+    background-color:${props => props.bg};
+    padding:10px;
+    color:#fff;
+    font-size:${props => props.small? '15px': '30px'};
+
+`

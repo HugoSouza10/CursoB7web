@@ -1,0 +1,5 @@
+npm install styled-components
+
+-Instalando a typagem da biblioteca
+
+npm install -D @types/styled-components

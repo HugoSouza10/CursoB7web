@@ -1,0 +1,8 @@
+O que é? É Basicamente uma state mais evoluida, aqui
+podemos colocar vários estados para diversas coisas.
+
+
+exemplo de uso: Quando você tem um objeto com vários valores
+
+obs: Uma state comum ela se limita apenas mudanças simples de estados
+tratando um valor único.

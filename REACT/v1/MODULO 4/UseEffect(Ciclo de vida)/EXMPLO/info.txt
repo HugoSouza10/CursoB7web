@@ -1,0 +1,11 @@
+COMO FUNCIONA?
+
+- CADA COMPONENTE TEM UM CICLO
+- VOCÊ PODE EXECUTAR ALGUM EM CADA CICLO
+
+
+UseEffec: Monitora um elemento específico em que será 
+modificado futuramente.
+
+obs: Se você não específicar nada no useEffec ele vai
+executar a primeira vez

@@ -1,0 +1,22 @@
+.square{
+    background-color: rgb(194, 10, 10);
+    padding: 30px;
+}
+
+.botao{
+    cursor: pointer;
+    background-color: rgb(148, 4, 153);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.botao:hover{
+    background-color: rgb(110, 6, 114);
+}
+
+.legenda{
+   color: white;
+}

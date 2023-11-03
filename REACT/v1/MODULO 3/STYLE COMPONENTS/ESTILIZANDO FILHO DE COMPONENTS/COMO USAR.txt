@@ -1,0 +1,7 @@
+-Podemos chamar filhos específicos para estilizar
+como o css faz
+
+
+ex: span, a{Estilização aqui}
+
+obs: Isso dentro de um componente

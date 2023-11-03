@@ -1,0 +1,4 @@
+Nesse caso real, a gente tá fazendo uma lista de pessoa
+
+instale a biblioteca: npm install uuid
+instale os type: npm install -D @types/uuid

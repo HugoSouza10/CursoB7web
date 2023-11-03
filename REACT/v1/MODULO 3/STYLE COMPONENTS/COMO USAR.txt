@@ -1,0 +1,61 @@
+
+1º Forma de usar: Uso no próprio arquivo principal
+
+import styled from 'styled-components';
+
+const Container = styled.div `
+    margin:auto;
+    background-color:#000;
+    color:#fff;
+    max-width:1070px;
+    padding:20px;
+
+`
+
+
+2º Forma com arquivo separados
+
+- crie um arquivo separado com o nome do componente
+
+import styled from 'styled-components';
+
+const Container = styled.div `
+    margin:auto;
+    background-color:#000;
+    color:#fff;
+    max-width:1070px;
+    padding:20px;
+
+`
+
+- depois import ele onde quiser usar
+
+obs: Nessa forma coloque o componente como .ts
+
+
+obs: Com style-components, agora temos os componentes de estilização
+e de dados
+
+
+
+3º Forma puxando apenas um import para todos os componentes
+
+-Criar um arquivo só para colocar todos componentes estilizados
+-Criamos um arquivo principal para chamar esses componentes específicos
+
+A ideia e ter todos os componentes em um arquivo só
+
+- importando todos os componentes do arquivo
+
+import * as C from './AppStyles';
+
+
+
+Estrutura:
+
+-Pasta do componente
+-index.tsx arquivo principal dele
+-styles geral para a criação dos componentes estilizados
+
+
+
