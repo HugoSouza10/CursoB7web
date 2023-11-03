@@ -1,0 +1,32 @@
+function limparTela(){
+    let tela = document.getElementById('display');
+    tela.innerHTML = '0';
+}
+
+
+function numero (numero){
+  let n = parseInt(numero); 
+  let lista1 = [];
+  document.getElementById('display').innerHTML+=numero;
+
+  lista1 = parseInt(document.getElementById('display').innerHTML);
+  /*Atualizar display */
+
+  console.log(lista1);
+
+  
+   
+}
+
+function operacao(op){
+
+    if(op == true){
+
+    }else{
+      numero();
+    }
+   
+}
+
+
+

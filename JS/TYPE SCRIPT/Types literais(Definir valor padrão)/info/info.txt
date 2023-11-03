@@ -1,0 +1,13 @@
+Type script precisa ser convertido em js
+
+Instalação do type script
+
+npm i -g typescript
+
+-Comando para converter para typescript
+
+src/script.ts --outDir public
+
+"Local onde está o script.ts" -- outDir "Pasta que deseja gerar"
+
+Atualizar automático tsc src/typescript.ts -w --noEmitOnError outDir "Nome da pasta"

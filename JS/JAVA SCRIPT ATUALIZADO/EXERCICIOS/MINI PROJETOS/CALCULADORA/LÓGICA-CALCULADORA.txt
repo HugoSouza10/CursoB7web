@@ -1,0 +1,20 @@
+1- Função limpar tela
+2- Função pegar dados dos botões
+3- mostrar na tela os dados dos botões, mas 
+com relação aos números não pode sobrescrever eles, mas adicionar ele.
+
+como funciona a lógica dos número:
+
+vai ter dois blocos de botões
+
+1- bloco de números
+2- bloco de números
+
+
+4-pegar dados das operações: ao clicar em uma operação, sera gerado um outro bloco de número
+ou seja um próximo número
+
+5- criar uma função que verifica qual operação vai ser feita
+
+6- função da igualdade: basicamente ela vai mostrar o resultado na tela quando clicado
+

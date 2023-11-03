@@ -1,0 +1,8 @@
+1- deve informar a função que ela não deverá mais ser chamada!
+2- deve conter uma função recursiva que executará a função com diferentes argumentos.
+3- criar função contarDecrscente(recursiva) contendo 1 parâmetro, caso seja menor que 1
+deverá retornar um array vazio.
+4- criei uma constante chamada arrayDescrescente
+
+[12345]
+[51234]

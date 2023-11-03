@@ -1,0 +1,18 @@
+Lógica:
+
+precisamos calcular o mínimo de passo que uma pessoa precisa dá para
+atravessar a rua.
+
+
+X será o ponto inicial da pessoa
+A pessoa precisa chegar numa posição maior ou igual a y
+
+obs: a cada passo dado ela percorre uma distância fixa chamada z
+
+
+obs2: X distância inicial
+      Y: distância final
+      z: Numero de passos	
+
+
+posição final: 10	

@@ -1,0 +1,19 @@
+- AddEventListener não funciona em array
+- Um check box retorna true quando clicado
+- AddEventListener não consegue pegar valor de uma div, quando
+precisar usar com div, você pode usar o data para armazenar o
+valor na div
+
+
+
+CÓDIGOS ESPECÍFICOS JS:
+
+
+arrayPoss = arrayPoss.filter(e => e !== 'B');
+
+AQUI CONSEGUIMOS FILTRAR E REMOVER UMA STRING ESPECÍFICA
+
+obs: O filter filtra quando obdecer uma condição para ser filtrado
+
+
+

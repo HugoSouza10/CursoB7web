@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="script.js"></script>
+
+	<style type="text/css">
+		body{
+			display: flex;
+			background-color: orange;
+			justify-content: center;
+			align-items: center;
+			height: 500px;
+		}
+
+		.container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 300px;
+			width: 300px;
+			background-color: black;
+			font-family: arial;
+			color: white;
+		}
+
+		form{
+			outline: none;
+		}
+
+		form input{
+			width: 200px;
+		}
+
+		#botao{
+			height: 30px;
+		}
+
+		
+	</style>
+</head>
+<body>
+
+<div class="container">
+<form method="POST">
+	Usuário:<br/><br/>
+	<input type="text" id="usuario" placeholder="E-mail"><br/><br/>
+
+	Senha:<br/><br/>
+	<input type="password" id="senha" placeholder="Senha"><br/><br/><br/>
+
+	<input type="submit" id="botao" value="Enviar" onclick="enviar()">
+	
+</form>
+</div>
+</body>
+</html>

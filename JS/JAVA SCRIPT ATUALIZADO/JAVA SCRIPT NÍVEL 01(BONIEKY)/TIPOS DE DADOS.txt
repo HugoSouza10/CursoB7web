@@ -1,0 +1,6 @@
+NUMBER
+STRING
+BOOLEANOS
+
+
+comando para verificar o tipo de dado é o typeoff

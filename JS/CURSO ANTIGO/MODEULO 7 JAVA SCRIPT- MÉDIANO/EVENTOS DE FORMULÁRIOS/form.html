@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title></title>
+	<script type="text/javascript" src="script.js"></script>
+	<style type="text/css">
+		body{
+			height: 500px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
+</head>
+<body>
+<form method="POST" onsubmit="Obrigado()">
+	Nome:<br/><br/>
+	<input type="text" name="nome" onblur="desfocou()" onfocus="focou()"/><br/><br/>
+
+	<select name="cidade" onchange="mudouOpção(this)">
+		<option>São Paulo</option>
+		<option>Rio de Janeiro</option>
+		<option>Fortaleza</option>
+		<option>Recife</option>
+	</select><br/><br/>
+
+	<input type="submit" value="Enviar"/>
+	
+</form>
+</body>
+</html>
+
+<!-- onchange: É UMA FUNÇÃO QUE É EXECUTADA QUANDO MUDA DE OPÇÃO  -->
+
+<!-- this: SELECIONA O PRÓPRIO OBJETO-->
+
+<!--onfocus: FUNÇÃO QUE É REALIZADA ENQUANTO ESTIVER FOCADA NO CAMPO ESCOLHIDO-->
+
+
+	<!--- onblur: FUNÇÃO QUE É REALIZADA QUANDO O CURSO SAI DAQUELE CAMPO-->
+
+
+	<!-- onsubmit: EVENTO QUE É REALIZADO QUANDO O FORMULÁRIO FOR ENVIADO-->

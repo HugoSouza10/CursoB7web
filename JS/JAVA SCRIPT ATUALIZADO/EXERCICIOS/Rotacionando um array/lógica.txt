@@ -1,0 +1,15 @@
+array = ["A","B","C,"D","E"];
+
+Nossa missão é rotacionar o vetor a quantidade de vezes indicada
+
+armazene a quantidade de rotação na letra Q
+
+caso seja 1 rotacione 1 elemento só ex:
+["E", "A", "B", "C", "D"]
+
+
+funções de array:
+array push: adiciona na ultima posição do array
+array pop: remove o último item de um array
+unshift(): adiciona um elemento na primeira posição do vetor;
+shift(): remove o elemento na primeira posição do vetor.

@@ -1,0 +1,46 @@
+
+//Dados
+let weight = document.querySelector('.box .peso') as HTMLInputElement;
+let height = document.querySelector('.box .altura') as HTMLInputElement;
+let old = document.querySelector('.box .idosoValue') as HTMLInputElement;
+let young = document.querySelector('.box .jovemValue') as HTMLInputElement;
+
+let faixa:string;
+
+const tableImcOld:number [] = [22,27];
+
+old.addEventListener('change',():string=>{
+    young.checked = false;
+    const opValue:string = old.value;
+    faixa = 'idoso';
+    return imc(faixa);
+});
+
+young.addEventListener('change',()=>{
+    old.checked = false;
+    const opValue:string = old.value;
+    faixa = 'jovem';
+    return imc(faixa);
+})
+
+
+function imc(faixa:string):string{
+     switch (faixa) {
+         case 'idoso':
+             const oldImc = +weight.value/+height.value;
+             console.log('Idoso')
+             return oldImc.toString();
+             break;
+
+         case 'jovem':
+             console.log('Jovem')
+             break;
+     }
+
+}
+
+//Renderização
+function renderIMC():void{
+    
+}
+

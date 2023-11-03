@@ -1,0 +1,2 @@
+-number: Para números
+-as HTMLInputElement: Para elementos do tipo input html

@@ -1,0 +1,8 @@
+https://ricardo-reis.medium.com/express%C3%B5es-regulares-regex-58052f54a875
+
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/match
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/match

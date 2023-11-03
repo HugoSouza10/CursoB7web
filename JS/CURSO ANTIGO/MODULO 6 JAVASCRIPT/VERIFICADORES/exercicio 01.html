@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function verificar(){
+			var numero = document.getElementById("numero").value;
+
+			if(numero % 2 == 0){
+				alert(" Este número é "  + " PAR ");
+			}else{
+				alert("Este número é " + " IMPAR ");
+			}
+		}
+		
+		
+	</script>
+	<style type="text/css">
+		body{
+			text-align: center;
+			margin-top: 100px;
+		}
+	</style>
+</head>
+<body>
+	Informe um número:<br/><br/>
+<input type="text" id="numero">
+
+<button onclick="verificar()">Verificar</button>
+
+<!-- +: COMANDO QUE SERVE PARA JUNTAR VÁRIAS COISAS-->
+
+<!-- ONCLIK: COMANDO DE CLICK MUITO IMPORTANTE!!-->
+
+</body>
+</html>

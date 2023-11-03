@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de formulário</title>
+    <link rel="stylesheet" href="../form/style.css"/>
+    
+
+</head>
+<body>
+ <div class="screen">
+     <div class="left-side">
+        <img src="../form/images/financial_data.png">
+     </div>
+
+     <div class="right-side">
+         <h1>Criei uma conta</h1>
+
+         <form method="POST" class="b7validator">
+             <label>
+                 Seu nome</br>
+                 <input type="text" name="name" data-rules="required|min=2">
+             </label>
+
+             <label>
+                E-mail</br>
+                <input type="text" name="name" data-rules="required" >
+            </label>
+
+            <label>
+                Sua senha</br>
+                <input type="password" name="password">
+            </label>
+
+            
+            <label>
+                <input type="submit" name="submit" value="Cadastra-se">
+            </label>
+
+            <div>
+                Já tem uma conta? <a href="">Faça login</a>
+            </div>
+             
+         </form>
+    </div>
+ </div>
+    
+<script src="../form/script.js"></script>
+</body>
+</html>
+
+<!-- b7validator: essa classe serve para verificar se todos os campos foram enviados corretamente 
+sem está vazio-->
+
+<!-- data-rules: colocamos a regre que quremos-->
+
+<!-- required|min=4: essa barra separa as regras-->
+
+<!-- min=2: são as regras-->

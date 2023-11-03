@@ -1,0 +1,15 @@
+
+body{
+	height: 10000px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+#navbar{
+	position: fixed;
+	width: 100%;
+	background-color: red;
+	height: 500px;
+	transition: 0.9s all;
+
+}

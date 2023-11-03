@@ -1,0 +1,50 @@
+@charset ="UTF-8";
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	background-color:#f5db95;
+}
+
+.container{
+	width: 600px;
+	height: 500px;
+	justify-content: center;
+	
+}
+
+
+header{
+	display: flex;
+	justify-content: center;
+	font-family: Arial;
+	color: white;
+}
+
+section{
+	text-align: center;
+	padding-top: 40px;
+	height: 400px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+section #hora{
+	font-size: 26px;
+}
+
+section #imagem{
+	margin-top: 10px;
+
+
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+}

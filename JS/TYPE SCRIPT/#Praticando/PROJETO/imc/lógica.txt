@@ -1,0 +1,15 @@
+-Selecionar os elementos que quero modificar ok
+-Pegar informação do input ok
+-Função calcular imc baseado nas informações do input ok
+-Adicionar evento de clique (pedente)
+-Renderizar na tela o resultado (pendente)
+
+
+filtrando dados do array
+
+tableImcYoung[2][0]
+
+1- index para mudar o endereço do array geral
+2- index para mudar o endereço do array interno
+
+

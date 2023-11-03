@@ -1,0 +1,26 @@
+Esse arquivo é o arquivo de configuração de projeto
+
+obs: Use sempre essa configuração de arquivo, pois
+com essa configuração ele procura todos os códigos e traduz
+
+
+-Para iniciar um arquivo é só digitar tsc init
+
+
+- tsc para gerar todos os arquivos typeScript
+- tsc -w gera todos os arquivos com whatmode
+
+
+
+incluindo e excluindo arquivo da tradução:
+
+  "exclude": Serve para evitar que um arquivo seja traduzido
+   ideal para oculta arquivos de desenvolvimento e node module
+   
+   
+	
+   Ex: "src/outros.ts"
+  "Include": Inclui arquivos para ser traduzidos
+
+obs: * serve para pegar todos
+

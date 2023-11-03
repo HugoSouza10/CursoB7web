@@ -1,0 +1,10 @@
+Esse modo salva automático toda vez que você salva
+
+
+Ex: tsc src/script.ts  -w --noEmitOnError --outDir asset
+
+
+Local do arquivo:  src/script.ts
+
+
+onde será traduzido: --outDir asset

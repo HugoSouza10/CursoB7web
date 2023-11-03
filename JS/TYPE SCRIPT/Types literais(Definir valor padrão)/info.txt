@@ -1,0 +1,2 @@
+Aqui podemos definir um valor padrão para algum específico,
+ou seja algum que é padrão e não vai alterar o valor

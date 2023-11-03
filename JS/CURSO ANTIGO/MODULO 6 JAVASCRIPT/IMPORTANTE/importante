@@ -1,0 +1,72 @@
+
+
+
+
+parseInt(document.getElementById("campo1").value): 
+
+
+paseInt; É UMA FUNÇÃO QUE TRANSFORMA TEXTO EM NÚMERO INTEIROS.
+
+
+document.getElementById: COMANDO PARA SELECIONAR ALGUM OBJETO HTML..
+
+document.getElementById("painel").innerHTML = soma; COMANDO QUE SERVE PARA PEGAR A PARTE HTML DO DOCUMENTO
+
+
+
+Definido variável:
+
+Var numero = 10;
+
+var media;
+
+
+
+definindo funções:
+
+function(["aqui fica os parêmentros"]){
+	
+}
+
+
+Tipos de funções: 
+
+onload; FUNÇÃO QUE EXECUTA ASSIM QUE A PÁGINA CARREGA.
+
+Math.floor(Math.random()*100); FUNÇÃO QUE GERA NÚMEROS ALEATÓRIO.
+
+
+operadores
+
+= recebe
+
+== igualdade
+
+* Multiplicação
+
+=! diferente
+
+
+
+declarando array
+
+-var lista = ["Arroz, Feijão, Carne, Banana"]; E ASSIM QUE SE CRIA UMA MATRIZ OU ARRYS
+
+
+-TUDO QUE ESTÁ ENTRE ASPA É CONSIDERADO CARACTER, OU SEJA, TEXTO.
+
+-lista["POSIÇÃO DO ARRAY"]: AQUI É O COMANDO PARA PEGAR ALGUMA COISA DO ARRAY
+
+
+
+
+FUNÇÕES DATA E HORA:
+
+
+
+//var data = new Date();
+//var hora = data.getHours();
+
+
+
+FUNÇÃO REQUIRED: VERIFICA SE ALGUM ESTÁ VAZIO OU NÃO

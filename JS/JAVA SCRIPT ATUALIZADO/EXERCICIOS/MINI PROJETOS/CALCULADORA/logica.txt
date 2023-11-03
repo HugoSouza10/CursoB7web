@@ -1,0 +1,5 @@
+lógica calculadora:
+
+1- pegar os dados dos botões
+2- atualizar a tela quando clicar em um número específico
+3- verificar se tem um operador, se tiver, então gere um novo numero

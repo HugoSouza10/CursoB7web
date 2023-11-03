@@ -1,0 +1,2 @@
+Sempre que você criar uma função que recebe um objeto
+como parâmetro, então é bom específicar o type de objeto

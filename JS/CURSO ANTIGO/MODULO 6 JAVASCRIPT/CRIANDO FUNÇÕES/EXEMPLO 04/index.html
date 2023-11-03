@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function verificar()
+		{
+
+		var area = document.getElementById("area");
+		var numero = parseInt(prompt ("Digite um número: "));
+
+		if(numero %2 ==0){
+			area.innerHTML = "PAR";
+		}else{
+			area.innerHTML ="IMPAR";
+		}
+
+
+		}
+		
+
+	</script>
+
+	<style type="text/css">
+		.flex{
+			width: 200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 200px;
+		}
+	</style>
+</head>
+<body>
+<div class="flex"><br/>
+<div id="area">Alguma coisa....</div><br/><br/>
+<button onclick="verificar()">Verificar</button><br/><br/>
+</div>
+</body>
+</html>
+
+<!--parseInt: É UMA FUNÇÃO QUE TRANFORMA O COMANDO PROMPT PARA INTEIRO-->

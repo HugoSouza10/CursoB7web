@@ -1,0 +1,9 @@
+https://reqres.in/
+
+para ler seus erros de requisições olhe um site chamado
+status Code
+
+
+https://jsonplaceholder.typicode.com/
+
+

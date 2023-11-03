@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<label for="cpf">CPF</label>
+<input id="cpf" oninput="mascara(this)" type="text" placeholder="Informe seu cpf">
+<input type="submit" value="Enviar" onclick="formataCPF(cpf.value)">
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+<!-- onmouseover: QUANDO MOVER O MOUSE FAZ ALGUMA COISA
+
+<!-oninput: SERVE PARA EXECUTAR ALGUMA COISA QUANDO DIGITAR ALGUm	
+
+<! onkeypress="return event.charCode >= 48 && event.charCode <= 57": SÓ ACEITA NUMEROS -->

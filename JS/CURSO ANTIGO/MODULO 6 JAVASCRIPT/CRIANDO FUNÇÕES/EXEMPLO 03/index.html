@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function trocarDiv(nome,idade){
+			var area = document.getElementById("area");
+			var texto = prompt("Qual é seu SobreNome?");
+
+			area.innerHTML = nome+ " "+texto+" " + "Você tem: "+idade+ "Anos";
+		}
+	</script>
+</head>
+<body>
+<div id= "area">Alguma coisa</div>
+<br/><br/>
+<button onclick="trocarDiv('Hugo', 22)">Fazer ação!!</button>
+</body>
+</html>
+
+<!--trocarDiv('Hugo'): ESSA PASSAGEM É POR PARÂMETRO, OU SEJA VOCÊ PODE USAR ESSES PARÂMENTOS NO SEU CÓDIGO-->
+
+<!-- QUANDO SE FAZ PASSAGEM POR PARÊMTRO NA FUNÇÃO PRECISA-SE DE UM PARÂMENTRO PARA RECEBER O PARÂMETRO DA FUNÇÃO-->
+
+<!-- O PARÂMETRO É COPIADO PARA O PARÂMETRO DA FUNÇÃO-->

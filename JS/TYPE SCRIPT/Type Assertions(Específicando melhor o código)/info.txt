@@ -1,0 +1,4 @@
+Aqui serve para a gente específicar melhor para o type script
+que esse sim é aquilo que a gente está definindo
+
+ex: HTMLInputElment: Aqui a gente especificou que é um input

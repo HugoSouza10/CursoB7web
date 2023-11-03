@@ -1,0 +1,6 @@
+Removendo acesso restrito
+
+1- Abra o powerShell como administrador
+2- Digite Get-ExecutionPolicy (Se retornar restrito, então precisamos alterar)
+3- Set-ExecutionPolicy Unrestricted( Para alterar a restrição)
+4- Get-ExecutionPolicy(Agora ele vai retornar sem restrição)
