@@ -1,0 +1,3 @@
+Para verificar checkbox, precisamos criar uma state para isso
+
+e setar como true ou false

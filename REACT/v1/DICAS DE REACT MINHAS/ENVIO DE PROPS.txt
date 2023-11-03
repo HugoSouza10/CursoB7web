@@ -1,0 +1,2 @@
+Quando for enviar uma props, coloque sempre o mesmo nome da prop
+quando for enviar e receber!

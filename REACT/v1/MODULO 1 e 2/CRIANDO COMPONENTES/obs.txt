@@ -1,0 +1,4 @@
+TODA VEZ QUE EU FOR CRIAR UM COMPONENTE COM CONTEÚDO
+DENTRO DELE, ENTÃO PRECISAMOS COLOCAR UM TYPE PARA A PROPS
+
+obs: Todo componente é bom inicar com uma letra maíscula

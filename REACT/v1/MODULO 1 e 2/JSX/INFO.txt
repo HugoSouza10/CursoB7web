@@ -1,0 +1,10 @@
+O QUE É JSX: JSX É COMO SE FOSSE TAG HTML, MAS NÃO É
+
+
+const App = ()=>{
+   return(
+	<div>Olá, tudo bem?</>
+   )
+}
+
+<App></App>

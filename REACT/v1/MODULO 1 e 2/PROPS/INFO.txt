@@ -1,0 +1,7 @@
+PROPS:
+
+PROPRIEDADES QUE PODEMOS ENVIAR VIA COMPONENTES
+
+obs: Quando criamos um componentes com props, você precisa
+específica a props se é obrigatória ou não. No caso você
+faz isso com type

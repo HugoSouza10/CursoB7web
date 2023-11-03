@@ -1,0 +1,1 @@
+Nunca criei uma state fora de uma função, pois não funciona.

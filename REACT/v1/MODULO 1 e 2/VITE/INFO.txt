@@ -1,0 +1,5 @@
+ini vite react-vite -- --template react-ts
+
+entre na pasta e aplique install
+
+iniciando projeto vite: npm run dev

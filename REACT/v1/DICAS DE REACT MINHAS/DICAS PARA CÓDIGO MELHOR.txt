@@ -1,0 +1,1 @@
+-Botões, campos, áreas específicas: É bom ser um componente

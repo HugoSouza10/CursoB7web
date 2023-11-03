@@ -1,0 +1,6 @@
+npx create-react-app "nome do projeto" --template typescript
+
+caso não queira usar type só retirar o type
+
+
+-iniciando aplicativo: npm start

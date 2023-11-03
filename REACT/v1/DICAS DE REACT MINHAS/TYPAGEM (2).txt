@@ -1,0 +1,7 @@
+VOID: QUANDO SÓ EXECUTA A FUNÇÃO, MAS NÃO TEM RETORNA VALOR
+
+obs: Preste atenção ao ter algum tipo de retorno, pois se retornar alguma coisa, tenha
+noção para onde e quem vai receber esse retorno
+
+
+-Toda vez que a gente criar alguma informação a gente coloca uma tipagem para ela

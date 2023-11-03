@@ -1,0 +1,12 @@
+Atenção quando você enviar uma tipagem, então você
+já deve pegar os dados delas coo title, id e assim vai
+
+
+Algumas tipagem:
+
+
+- React.MouseEventHandler<HTMLDivElement>: Typagem com Props para div com evento de click.
+- String
+- Boolen
+- Number
+- HTMLInputElement: Typagem para input, ideal para capturar dados de campos e colocar em states.

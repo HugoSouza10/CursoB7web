@@ -1,0 +1,15 @@
+REACT-ROUTER:
+-npm install --save @types/react-router-dom
+
+REDUX:
+
+-npm install @reduxjs/toolkit
+-npm install -D @types/react-redux
+
+AXIOS:
+  -npm install axios
+
+
+-STYLED-COMPONENTS:
+
+ -npm install --save @types/styled-components

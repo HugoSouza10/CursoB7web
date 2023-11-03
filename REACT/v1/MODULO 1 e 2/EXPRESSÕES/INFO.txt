@@ -1,0 +1,3 @@
+AQUI VOCÊ PODE COLOCAR JS JUNTO COM JSX
+
+comando: {código js}

@@ -1,0 +1,5 @@
+PARA ADICIONAR UMA CLASSE NO REACT
+
+EX: input.inputDisabled
+
+obs: se for input adicione a condição no início do input

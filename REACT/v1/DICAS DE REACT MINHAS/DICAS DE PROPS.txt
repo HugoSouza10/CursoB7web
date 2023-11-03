@@ -1,0 +1,13 @@
+As props pode ser enviado via jsx ou funções normais.
+
+
+Qual a diferença?
+
+Via componente jsx a gente precisa usar o componente para enviar a props EX:
+
+<CampoTask item = {item.id}>
+
+
+já via função a gente pode somente chamar a função e enviar via parãmetro
+
+ex: Campo(item.id)

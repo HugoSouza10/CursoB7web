@@ -1,0 +1,30 @@
+PODEMOS RENDERIZAR UMA LISTA COM MAP, COMO É FEITO
+NO JS NORMAL
+
+obs: Se você usar o map com {} então você precisa retorna alguma coisa
+
+
+use assim para renderizar sem o return
+return(
+   <div>
+     <h2>Lista de presença:</h2>
+     <ul>
+      {list.map((item)=>
+        <li>{item}</li>
+      )}
+     </ul>
+   </div>
+ )
+
+
+ return(
+   <div>
+     <h2>Lista de presença:</h2>
+     <ul>
+      {list.map((item,index)=>{
+        return <li key={index}>{item}</li>
+      })}
+     </ul>
+   </div>
+ )
+

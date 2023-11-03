@@ -1,0 +1,16 @@
+USANDO VÁRIOS COMPONENTES:
+
+
+-PODEMOS CRIAR VÁRIOS COMPONENTES
+- TODO COMPONENTE PRECISA SER EXPORTADO E IMPORTANTO PARA ALGUM
+LUGAR
+
+obs: podemos retornar apenas um componentes, então
+para retornar vários, você coloca eles dentro de um único objeto
+
+
+1- QUANDO SEPARAR AS COISAS EM COMPONENTES? Quando se tem bloco
+de código grande que você precisa dá manutenção separa nele.
+
+2- Quando um bloco de código é usado em vários locais
+

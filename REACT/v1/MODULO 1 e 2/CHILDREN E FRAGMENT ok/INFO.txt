@@ -1,0 +1,28 @@
+FRAGMENT: A GENTE CONSEGUE RETORNAR APENAS O ELEMENTO INTERNO
+
+CHILDREEN: Significa quando ele em item separado, como se fosse
+html <buttum></buttum>
+
+
+primeiro importe: import {ReactNode } from 'react';
+
+
+No type informe o children: ReactNode
+type Props = {
+    url:string;
+    legend:string;
+    children:ReactNode;
+}
+
+
+
+<div>
+  {children} Conteúdo do jsx
+  {legend} Leganda enviada via prop
+
+</div>
+
+<Photo legend="Legenda teste">
+  aqui fica o children
+  <img src="https://www.google.com.br/google.jpg
+</Photo>
