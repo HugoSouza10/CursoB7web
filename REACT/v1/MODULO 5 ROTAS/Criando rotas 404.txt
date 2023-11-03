@@ -1,0 +1,5 @@
+-Primeiro crie o componente da rota não encontrada
+-Importe sua rota para o lugar que deseja usar
+- <Route path="*" element={<NotFound/>}/>
+
+obs:Coloque essa rota sempre no final

@@ -1,0 +1,1 @@
+É tipo uma variável global na qual todo mundo poderá ter acesso.

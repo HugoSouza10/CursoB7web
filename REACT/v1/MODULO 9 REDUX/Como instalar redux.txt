@@ -1,0 +1,12 @@
+npm install @reduxjs/toolkit
+
+npm install -D @types/react-redux
+
+
+ou 
+
+
+npx create-react-app my-app --template redux-typescript
+
+aqui instalamos o redux completo
+

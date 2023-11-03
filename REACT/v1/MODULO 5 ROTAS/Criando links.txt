@@ -1,0 +1,7 @@
+-Para criar links você precisa importar o componente link do react-router-dom
+-Depois use o componente nos links que você que você quer.
+
+você precisa importar isso no seu componente
+import {Link} from 'react-router-dom';
+
+ex: <li><Link to="/sobre/bonieky">Sobre Bonieky</Link></li>

@@ -1,0 +1,25 @@
+PARA USAR O ROUTER-DOM, PRECISAMOS PRIMEIRO INSTALAR
+
+
+-npm install react-router-dom
+
+-No main importe o BrowserRouter
+
+-Use o BrowserRouter no componente inteiro
+
+-Importe o router no seu app
+
+-Faça suas páginas e importe onde você queira usar
+
+- Criei uma tag Route e dentro dela coloque Route
+
+
+ex:
+
+
+ <Routes>
+       <Route path="/" element={<Home/>}/>
+       <Route path="/sobre" element={<About/>}/>
+       <Route path='/sobre/bonieky' element={<AboutBonieky/>}/>
+       <Route path='/sobre/hugo' element={<AboutHugo/>}/>
+  </Routes>

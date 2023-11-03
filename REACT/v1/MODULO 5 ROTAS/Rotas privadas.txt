@@ -1,0 +1,5 @@
+Ideia para login
+
+Obs: Para fazer uma rota privada é bom criar um componente separado exclusivo apenas para isso. Então a gente chama dentro do componente essa rota.
+
+obs2: O retorno sempre é um children, então precisamos receber essa props e retornar um children.

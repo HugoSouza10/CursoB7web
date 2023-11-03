@@ -1,0 +1,17 @@
+<Route parth="/sobre/:slug" element={AboutItem}/>
+
+
+- Quando usamos o : indica que vai ser um conteúdo dinâmico
+- Quando usamos uma rota dinâmica ele sempre vai mandar para
+um lugar específico junto com um parâmetro dinâmico
+
+- Geralmente a gente recebe esses dados da url via parâmetro
+
+- Precisamos import { useParams } from 'react-router-dom'; para acessar
+o conteúdo dinâmico e rederizar na tela.
+
+
+obs: Para quer serve? Serve para nós criarmos uma página que seja dinâmica
+e redenrizar conteúdos dinâmicos de banco e api.
+
+Obs2: podemos fazer uma galeria de foto, várias coisas

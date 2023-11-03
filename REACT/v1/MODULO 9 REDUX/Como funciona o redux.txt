@@ -1,0 +1,12 @@
+-store(Lugar onde armazenamos os dados para acesso geral)
+
+-provider(Serve para disponibilizar a store pra todo mundo)
+
+-reducer ou slice(state avançada para salvar e modificar dados)
+
+-actions / dispatches(Serve para modificar os reducer)
+
+-selectors
+
+
+obs: Recomendação é que precisamos de uma store por aplicação.

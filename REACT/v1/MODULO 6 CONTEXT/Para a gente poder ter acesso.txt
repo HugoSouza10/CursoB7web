@@ -1,0 +1,4 @@
+Importe isso onde você quiser pegar os dados do contexto:
+
+
+import { useContext } from 'react';

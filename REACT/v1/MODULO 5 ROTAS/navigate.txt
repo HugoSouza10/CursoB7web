@@ -1,0 +1,6 @@
+Serve para nevegar em qualquer página.
+
+
+com ele podemos ir para qualquer página.
+
+Obs: Navigate foi feito para ser usado com useEffect
